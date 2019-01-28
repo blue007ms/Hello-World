@@ -1,6 +1,8 @@
-var firstName = prompt("what is your first name?");
-var lastName = prompt("what is your last name?");
-var age = prompt("what is your age?");
-
-console.log("your Full Name is " + firstName + "" + lastName);
-console.log("your Are" + age + "" + "Years old");
+var secretNumper = 4;
+var guss = prompt("guss a numper?");
+if (Number(guss) === secretNumper) {
+	alert("Well Done!!")
+}
+else {
+	alert("So Dumb :D")
+}
